@@ -20,18 +20,22 @@ body {
 }
 
 .menu {
-	font-size: 22px;
+	font-size: 24px;
 	font-family: cambria;
 	text-align: center;
-	padding: 25px 50px;
+	padding: 10px 50px;
 	background-color: #3366FF;
-
+	position: fixed;
 	top: 0px;
+}
+
+#truck-icon {
+	width: 5%;
 }
 
 nav a{
 	color: #333;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 nav a:hover {
@@ -43,9 +47,6 @@ a:link {
 	text-decoration: none;
 }
 
-
-
-
 .columns-top {
 	width: 48%;
 	margin: 1%;
@@ -54,6 +55,7 @@ a:link {
 #column-one {
 	float: left;
 	clear: left;
+	margin-top: 35px;
 }
 
 #column-two {
@@ -78,4 +80,3 @@ a:link {
 h1 {
 	font-size: 50px;
 }
-
