@@ -115,3 +115,24 @@ h1 {
 h3 {
 	text-align: center;
 }
+
+#bottom-module {
+	background-image: url('../img/big-truck.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.many-trucks-text {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#footer {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	background-color: #3366FF;
+	font-size: 20px;
+	font-weight: bold;
+}
