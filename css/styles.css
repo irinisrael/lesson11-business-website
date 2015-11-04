@@ -36,29 +36,31 @@ body {
 nav a{
 	color: #333;
 	font-size: 16px;
+	padding: 8px;
 }
 
 nav a:hover {
 	background-color: white;
 	color: #3366FF;
+	cursor: pointer;
 }
 
 a:link {
 	text-decoration: none;
 }
 
-.columns-top {
+.top-module {
 	width: 48%;
 	margin: 1%;
 }
 
-#column-one {
+#column-one-top {
 	float: left;
 	clear: left;
 	margin-top: 35px;
 }
 
-#column-two {
+#column-two-top {
 	float: left;
 	clear: right;
 }
@@ -79,4 +81,37 @@ a:link {
 
 h1 {
 	font-size: 50px;
+}
+
+.middle-module {
+	position: relative;
+	top: 280px;
+}
+
+.columns-mid {
+	width: 21%;
+	margin: 2%;
+	text-align: justify;
+}
+
+#column-one-mid {
+	float: left;
+	clear: left;
+}
+
+#column-two-mid {
+	float: left;
+	clear: right;
+}
+
+#four-photos {
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+
+h3 {
+	text-align: center;
 }
