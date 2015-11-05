@@ -1,7 +1,11 @@
-(function(window, undefined) {
+$(document).ready(function() {
 
-	// Javascript content goes here
+	$('button').click(function() {
+		alert('We look forward to working with you!');
+	});
 
-	window.console.log('JS content loaded');
+	$('.many-trucks-module').click(function() {
+		$('.many-trucks-module').slideUp(1000);
+	});
 
-}(this));
+})

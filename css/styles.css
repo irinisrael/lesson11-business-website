@@ -95,6 +95,10 @@ a:link {
 	background-color: grey;
 }
 
+button {
+	padding: 0;
+}
+
 #big-truck-text {
 	font-size: 50px;
 	font-weight: bold;
@@ -133,7 +137,7 @@ a:link {
 	cursor: pointer;
 }
 
-.many-truck-module {
+.many-trucks-module {
 	background-image: url('../img/many-trucks.jpg');
 	background-size: cover;
 	background-position: top center;
