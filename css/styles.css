@@ -208,8 +208,42 @@ button {
 }
 
 
+/*between tablet and cell*/
+@media all and (max-width: 700px) {
+
+	#column-one-top {
+		width: 45%;
+	}
+
+	#column-two-box {
+		width: 55%;
+		margin-right: 10px;
+		margin-top: 100px;
+	}
+
+	#big-truck-text {
+		margin-top: 50px;
+	}
+
+}
+
+
 /*cell*/
 @media all and (max-width: 480px) {
+
+	#column-one-top {
+		width: 45%;
+	}
+
+	#column-two-box {
+		width: 67%;
+		margin-right: 10px;
+		margin-top: 100px;
+	}
+
+	#big-truck-text {
+		margin-top: 50px;
+	}
 
 	.columns-mid {
 		width: 71%;
@@ -219,20 +253,6 @@ button {
 	#column-two-mid {
 		float: left;
 		clear: both;
-	}
-
-	#column-one-top {
-		width: 230px;
-	}
-
-	#column-two-box {
-		width: 62%;
-		margin-right: 10px;
-		margin-top: 100px;
-	}
-
-	#big-truck-text {
-		margin-top: 50px;
 	}
 
 }
