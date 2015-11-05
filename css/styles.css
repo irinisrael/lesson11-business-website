@@ -41,11 +41,13 @@ body {
 #nav-left {
 	float: left;
 	margin-left: 50px;
+	width:42%;
 }
 
 #nav-right {
 	float: right;
 	margin-right: 50px;
+	width:42%;
 }
 
 #truck-icon {
@@ -164,4 +166,73 @@ button {
 
 .clearfix {
 	clear: both;
+}
+
+
+
+/*between desktop and tablet*/
+@media all and (max-width: 908px) {
+
+	#nav-left {
+		margin-left: 0px;
+		width: 50%;
+	}
+
+	#nav-right {
+		margin-right: 0px;
+		width: 50%;
+	}
+
+}
+
+
+/*tablet*/
+@media all and (max-width: 768px) {
+
+	.menu {
+		font-size: 24px;
+		text-align: left;
+		padding: 10px 0px;
+	}
+
+	#nav-left {
+		margin-left: 5px;
+		width: 100%;
+	}
+
+	#nav-right {
+		margin-right: 5px;
+		width: 100%;
+	}
+
+}
+
+
+/*cell*/
+@media all and (max-width: 480px) {
+
+	.columns-mid {
+		width: 71%;
+	}
+
+	#column-one-mid,
+	#column-two-mid {
+		float: left;
+		clear: both;
+	}
+
+	#column-one-top {
+		width: 230px;
+	}
+
+	#column-two-box {
+		width: 62%;
+		margin-right: 10px;
+		margin-top: 100px;
+	}
+
+	#big-truck-text {
+		margin-top: 50px;
+	}
+
 }
