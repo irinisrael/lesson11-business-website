@@ -101,11 +101,7 @@ a:link {
 	margin-top: 50px;
 }
 
-h1 {
-	font-size: 50px;
-}
-
-h2 {
+#h-center {
 	text-align: center;
 }
 
@@ -135,10 +131,6 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 	cursor: pointer;
-}
-
-h3 {
-	text-align: center;
 }
 
 .many-truck-module {
