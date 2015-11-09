@@ -169,6 +169,154 @@ button {
 }
 
 
+/*.full-page-module {
+	height: 300px;
+}*/
+
+.services-bg-module{
+	background-image: url('../img/big-truck2.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+#column-three-top {
+	float: left;
+	clear: left;
+	margin-top: 35px;
+	width: 500px;
+}
+
+
+.trucking-module{
+height: 300px;
+width: 100%;
+}
+
+.truck1,
+.truck2{
+	float: left;
+}
+
+.warehousing-module{
+height: 600px;
+width: 100%;
+}
+
+.tracking-module{
+height: 600px;
+width: 100%;
+}
+
+
+.clients-module{
+height: 600px;
+width: 100%;
+}
+
+/*start of services-dummy css*/
+.center-all{
+	position: center;
+}
+
+.services-trucking-module{
+	height: 300px;
+	background: lightgray;
+	width: 100%;
+}
+
+.services-warehousing-module{
+	height: 300px;
+	width: 100%;
+}
+
+.services-tracking-module{
+	height: 300px;
+		background: lightgray;
+			width: 100%;
+}
+
+.services-clients-module{
+	height: 300px;
+		width: 100%;
+}
+
+h3{
+	margin-top: 0px;
+	padding-top: 20px;
+	font-size: 26px;
+	text-align: center;
+}
+
+.img-go-left {
+	float:left;
+	padding-left:25%;
+	padding-bottom: 0px auto;
+	margin:0px auto;
+}
+
+.p-go-left {
+	float:left;
+	padding-right:25%;
+	padding-top: 25px;
+	padding-left: 10px;
+	margin:0px auto;
+	text-align: justify;
+	width: 400px;
+}
+
+.work-module{
+		height: 250px;
+	width: 100%;
+
+}
+
+.work-with-us{
+
+	text-align: justify;
+		margin-right: 320px;
+	margin-left:320px;
+}
+.benefits-perks-module{
+
+		height: 325px;
+	width: 100%;
+background: lightgray;
+
+}
+
+
+ul.checks {
+list-style-image: url('../img/check_box.png');
+
+		margin-right: 475px;
+	margin-left:475px;
+}
+
+
+.available-positions-module{
+		height: 400px;
+	width: 100%;
+}
+.available{
+	width: 100%;
+	text-align: justify;
+		margin-right: 150px;
+	margin-left:150px;
+}
+
+
+.benefit-go-left{
+	float:left;
+	padding-right:25%;
+	padding-top: 25px;
+	padding-left: 10px;
+	margin:0px auto;
+	text-align: justify;
+	width: 400px;
+	clear: both;
+}
+
 
 /*between desktop and tablet*/
 @media all and (max-width: 908px) {
@@ -255,4 +403,4 @@ button {
 		clear: both;
 	}
 
-}
+
