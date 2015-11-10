@@ -241,7 +241,7 @@ h5 a{
 	right: 0px;
 }
 
-button {
+.button-about {
 	margin: 0;
 	float: right;
 	opacity: 0.5;
@@ -356,6 +356,13 @@ button {
 
 .services-bg-module{
 	background-image: url('../img/big-truck2.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.employment-bg-module{
+	background-image: url('../img/big-truck3.jpg');
 	background-size: cover;
 	background-position: top center;
 	background-repeat: no-repeat;
