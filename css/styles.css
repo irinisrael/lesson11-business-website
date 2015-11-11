@@ -1,3 +1,5 @@
+/*General stuff including body, header, nav, footer*/
+
 html,
 body {
     height: 100%;
@@ -15,11 +17,8 @@ body {
     height: 100%;
 }
 
-.truck-module {
-    background-image: url('../img/big-truck.jpg');
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
+.clearfix {
+    clear: both;
 }
 
 .menu {
@@ -69,6 +68,255 @@ nav a:hover {
 
 a:link {
     text-decoration: none;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #3366FF;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+/*Index page*/
+
+.truck-module {
+    background-image: url('../img/big-truck.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.top-module {
+    width: 48%;
+    margin: 1%;
+}
+
+#column-one-top {
+    float: left;
+    clear: left;
+    margin-top: 35px;
+    width: 330px;
+}
+
+#column-two-top {
+    float: right;
+    clear: right;
+}
+
+#column-two-box {
+    width: 42%;
+    border: 5px solid #3366FF;
+    padding: 10px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 150px;
+    background-color: grey;
+}
+
+button {
+    padding: 0;
+}
+
+#big-truck-text {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#h-center {
+    text-align: center;
+}
+
+.middle-module {
+    margin-top: 35px;
+}
+
+.columns-mid {
+    width: 21%;
+    margin: 2%;
+    text-align: justify;
+}
+
+#column-one-mid {
+    float: left;
+    clear: left;
+}
+
+#column-two-mid {
+    float: left;
+    clear: right;
+}
+
+#four-photos {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.many-trucks-module {
+    background-image: url('../img/many-trucks.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#many-trucks-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+
+/*Services and Employment pages*/
+
+.services-bg-module {
+    background-image: url('../img/big-truck2.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.employment-bg-module {
+    background-image: url('../img/big-truck3.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#column-three-top {
+    float: left;
+    clear: left;
+    margin-top: 35px;
+    width: 500px;
+}
+
+.trucking-module {
+    height: 300px;
+    width: 100%;
+}
+
+.truck1,
+.truck2 {
+    float: left;
+}
+
+.warehousing-module {
+    height: 600px;
+    width: 100%;
+}
+
+.tracking-module {
+    height: 600px;
+    width: 100%;
+}
+
+.clients-module {
+    height: 600px;
+    width: 100%;
+}
+
+.center-all {
+    position: center;
+}
+
+.services-trucking-module {
+    height: 300px;
+    background: lightgray;
+    width: 100%;
+}
+
+.services-warehousing-module {
+    height: 300px;
+    width: 100%;
+}
+
+.services-tracking-module {
+    height: 300px;
+    background: lightgray;
+    width: 100%;
+}
+
+.services-clients-module {
+    height: 300px;
+    width: 100%;
+}
+
+h3 {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.img-go-left {
+    float: left;
+    padding-left: 25%;
+    padding-bottom: 0px auto;
+    margin: 0px auto;
+}
+
+.p-go-left {
+    float: left;
+    padding-right: 25%;
+    padding-top: 25px;
+    padding-left: 10px;
+    margin: 0px auto;
+    text-align: justify;
+    width: 400px;
+}
+
+.work-module {
+    height: 250px;
+    width: 100%;
+}
+
+.work-with-us {
+    text-align: justify;
+    margin-right: 320px;
+    margin-left: 320px;
+}
+
+.benefits-perks-module {
+    height: 325px;
+    width: 100%;
+    background: lightgray;
+}
+
+ul.checks {
+    list-style-image: url('../img/check_box.png');
+    margin-right: 475px;
+    margin-left: 475px;
+}
+
+.available-positions-module {
+    height: 400px;
+    width: 100%;
+}
+
+.available {
+    width: 100%;
+    text-align: justify;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.benefit-go-left {
+    float: left;
+    padding-right: 25%;
+    padding-top: 25px;
+    padding-left: 10px;
+    margin: 0px auto;
+    text-align: justify;
+    width: 400px;
+    clear: both;
 }
 
 
@@ -194,7 +442,7 @@ h5 a {
 }
 
 
-/*Image Slider using JS*/
+/*About Us image Slider using JS*/
 
 .container {
     width: 520px;
@@ -272,258 +520,10 @@ h5 a {
 }
 
 
-/*End of Image Slider using JS*/
+/*End*/
 
 
-/*End of About Us page*/
-
-.top-module {
-    width: 48%;
-    margin: 1%;
-}
-
-#column-one-top {
-    float: left;
-    clear: left;
-    margin-top: 35px;
-    width: 330px;
-}
-
-#column-two-top {
-    float: right;
-    clear: right;
-}
-
-#column-two-box {
-    width: 42%;
-    border: 5px solid #3366FF;
-    padding: 10px;
-    float: right;
-    margin-right: 100px;
-    margin-top: 150px;
-    background-color: grey;
-}
-
-button {
-    padding: 0;
-}
-
-#big-truck-text {
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 50px;
-}
-
-#h-center {
-    text-align: center;
-}
-
-.middle-module {
-    margin-top: 35px;
-}
-
-.columns-mid {
-    width: 21%;
-    margin: 2%;
-    text-align: justify;
-}
-
-#column-one-mid {
-    float: left;
-    clear: left;
-}
-
-#column-two-mid {
-    float: left;
-    clear: right;
-}
-
-#four-photos {
-    width: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
-}
-
-.many-trucks-module {
-    background-image: url('../img/many-trucks.jpg');
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-}
-
-#many-trucks-text {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-left: 20px;
-    padding-top: 10px;
-}
-
-#footer {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #3366FF;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0;
-}
-
-.clearfix {
-    clear: both;
-}
-
-
-/*.full-page-module {
-	height: 300px;
-}*/
-
-.services-bg-module {
-    background-image: url('../img/big-truck2.jpg');
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-}
-
-.employment-bg-module {
-    background-image: url('../img/big-truck3.jpg');
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-}
-
-#column-three-top {
-    float: left;
-    clear: left;
-    margin-top: 35px;
-    width: 500px;
-}
-
-.trucking-module {
-    height: 300px;
-    width: 100%;
-}
-
-.truck1,
-.truck2 {
-    float: left;
-}
-
-.warehousing-module {
-    height: 600px;
-    width: 100%;
-}
-
-.tracking-module {
-    height: 600px;
-    width: 100%;
-}
-
-.clients-module {
-    height: 600px;
-    width: 100%;
-}
-
-
-/*start of services-dummy css*/
-
-.center-all {
-    position: center;
-}
-
-.services-trucking-module {
-    height: 300px;
-    background: lightgray;
-    width: 100%;
-}
-
-.services-warehousing-module {
-    height: 300px;
-    width: 100%;
-}
-
-.services-tracking-module {
-    height: 300px;
-    background: lightgray;
-    width: 100%;
-}
-
-.services-clients-module {
-    height: 300px;
-    width: 100%;
-}
-
-h3 {
-    margin-top: 0px;
-    padding-top: 20px;
-    font-size: 26px;
-    text-align: center;
-}
-
-.img-go-left {
-    float: left;
-    padding-left: 25%;
-    padding-bottom: 0px auto;
-    margin: 0px auto;
-}
-
-.p-go-left {
-    float: left;
-    padding-right: 25%;
-    padding-top: 25px;
-    padding-left: 10px;
-    margin: 0px auto;
-    text-align: justify;
-    width: 400px;
-}
-
-.work-module {
-    height: 250px;
-    width: 100%;
-}
-
-.work-with-us {
-    text-align: justify;
-    margin-right: 320px;
-    margin-left: 320px;
-}
-
-.benefits-perks-module {
-    height: 325px;
-    width: 100%;
-    background: lightgray;
-}
-
-ul.checks {
-    list-style-image: url('../img/check_box.png');
-    margin-right: 475px;
-    margin-left: 475px;
-}
-
-.available-positions-module {
-    height: 400px;
-    width: 100%;
-}
-
-.available {
-    width: 100%;
-    text-align: justify;
-    margin-right: 150px;
-    margin-left: 150px;
-}
-
-.benefit-go-left {
-    float: left;
-    padding-right: 25%;
-    padding-top: 25px;
-    padding-left: 10px;
-    margin: 0px auto;
-    text-align: justify;
-    width: 400px;
-    clear: both;
-}
+/*Media responsiveness begins*/
 
 
 /*between desktop and tablet*/
