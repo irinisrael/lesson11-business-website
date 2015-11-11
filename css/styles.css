@@ -121,6 +121,10 @@ button {
     padding: 0;
 }
 
+.button-index {
+    margin-bottom: 10px;
+}
+
 #big-truck-text {
     font-size: 50px;
     font-weight: bold;
@@ -572,6 +576,17 @@ h5 a {
         height: 0px auto;
         float: left;
     }
+    #background-container h5 {
+        float: left;
+        clear: left;
+        padding: 0px 50px;
+    }
+    #about p {
+        margin-left: 9em;
+    }
+    #product p {
+        margin: 0px;
+    }
 }
 
 
@@ -609,6 +624,9 @@ h5 a {
         height: 0px auto;
         margin-bottom: 20px;
     }
+    .benefits-perks-module {
+        margin-top: 150px;
+    }
     ul.checks {
         list-style-image: url('../img/check_box.png');
         width: 71%;
@@ -625,6 +643,27 @@ h5 a {
         clear: both;
         height: 0px auto;
         float: left;
+    }
+    #background-container p {
+        height: 2em;
+    }
+    #background-container h5 {
+        float: left;
+        clear: all;
+        padding: 0px 55px;
+    }
+    #about p {
+        margin-left: 0em;
+    }
+    #product h2 {}
+    #product p {
+        font-size: 15px;
+        font-weight: bold;
+        color: #3366FF;
+        margin: 0px;
+    }
+    .container {
+        margin-left: 00%;
     }
 }
 
@@ -664,6 +703,9 @@ h5 a {
         height: 0px auto;
         margin-bottom: 20px;
     }
+    .benefits-perks-module {
+        margin-top: 200px;
+    }
     ul.checks {
         list-style-image: url('../img/check_box.png');
         width: 71%;
@@ -680,6 +722,9 @@ h5 a {
         clear: both;
         height: 0px auto;
         float: left;
+    }
+    #about p {
+        font-size: 15px;
     }
 }
 
