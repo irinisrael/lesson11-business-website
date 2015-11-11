@@ -519,6 +519,46 @@ list-style-image: url('../img/check_box.png');
 		width: 50%;
 	}
 
+	.img-go-left {
+		display: none;
+	}
+
+	.p-go-left {
+		float: none;
+		clear: both;
+		width: 71%;
+		margin-left: 14.5%;
+		margin-right: 14.5%;
+	}
+
+	.work-with-us {
+		width: 71%;
+		margin-left: 14.5%;
+		margin-right: 14.5%;
+		clear: both;
+		height: 0px auto;
+		margin-bottom: 20px;
+	}	
+
+	ul.checks {
+		list-style-image: url('../img/check_box.png');
+		width: 71%;
+		margin-right: 14.5%;
+		margin-left:14.5%;
+		float: left;
+		clear: both;
+		height: 0px auto;
+	}
+
+	.available {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		clear: both;
+		height: 0px auto;
+		float: left;
+	}
+
 }
 
 
@@ -541,6 +581,46 @@ list-style-image: url('../img/check_box.png');
 		width: 100%;
 	}
 
+	.img-go-left {
+		display: none;
+	}
+
+	.p-go-left {
+		float: none;
+		clear: both;
+		width: 71%;
+		margin-left: 14.5%;
+		margin-right: 14.5%;
+	}
+
+	.work-with-us {
+		width: 71%;
+		margin-left: 14.5%;
+		margin-right: 14.5%;
+		clear: both;
+		height: 0px auto;
+		margin-bottom: 20px;
+	}
+
+	ul.checks {
+		list-style-image: url('../img/check_box.png');
+		width: 71%;
+		margin-right: 14.5%;
+		margin-left:14.5%;
+		float: left;
+		clear: both;
+		height: 0px auto;
+	}
+
+	.available {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		clear: both;
+		height: 0px auto;
+		float: left;
+	}
+
 }
 
 
@@ -559,6 +639,50 @@ list-style-image: url('../img/check_box.png');
 
 	#big-truck-text {
 		margin-top: 50px;
+	}
+
+	.img-go-left {
+		display: none;
+	}
+
+	.p-go-left {
+		float: none;
+		clear: both;
+		width: 71%;
+		margin-left: 14.5%;
+		margin-right: 14.5%;
+	}
+
+	h3 {
+		margin-top: 20px;
+	}
+
+	.work-with-us {
+		width: 71%;
+		margin-left: 14.5%;
+		margin-right: 14.5%;
+		clear: both;
+		height: 0px auto;
+		margin-bottom: 20px;
+	}
+
+	ul.checks {
+		list-style-image: url('../img/check_box.png');
+		width: 71%;
+		margin-right: 14.5%;
+		margin-left:14.5%;
+		float: left;
+		clear: both;
+		height: 0px auto;
+	}
+
+	.available {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		clear: both;
+		height: 0px auto;
+		float: left;
 	}
 
 }
@@ -591,4 +715,50 @@ list-style-image: url('../img/check_box.png');
 		clear: both;
 	}
 
+	.img-go-left{
+		display: none;
+	}
 
+	.p-go-left{
+		float: none;
+		clear: both;
+		width: 71%;
+		margin-left: 14.5%;
+		margin-right: 14.5%;
+	}
+
+	h3{
+	display: none;
+	}
+
+	.work-with-us {
+	width: 71%;
+	margin-left: 14.5%;
+	margin-right: 14.5%;
+	clear: both;
+	height: 425px;
+	}
+
+	ul.checks {
+	list-style-image: url('../img/check_box.png');
+	width: 71%;
+	margin-right: 14.5%;
+	margin-left:14.5%;
+	float: left;
+
+	clear: both;
+	position: center;
+	height: 0px auto;
+	}
+
+	.available {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	clear: both;
+	position: center;
+	height: 0px auto;
+	float: left;
+	}
+
+}
